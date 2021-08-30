@@ -9,4 +9,5 @@ The API rely on :
 ## Basic usage
 You can fetch recent articles per category. The API endpoint for that is _/category/:category_. The response is a JSON object containing the title, the cover image, the description and the link of the article.
 
-
+## Deployed version
+You can test it here : https://avaxnewsapi.herokuapp.com/ (not yet functional)
