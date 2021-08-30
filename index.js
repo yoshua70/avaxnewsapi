@@ -4,7 +4,7 @@ const dotenv = require('dotenv');
 const scrapper = require('./scrapper');
 
 dotenv.config();
-const PORT =  80 || process.env.PORT;
+const PORT =  process.env.PORT || 80;
 const app = express();
 
 app.use(express.json());
