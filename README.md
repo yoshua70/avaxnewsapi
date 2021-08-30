@@ -26,4 +26,5 @@ You can test it here : https://avaxnewsapi.herokuapp.com/ (not yet functional)
 * educative
 * sad
 * disguting
+
 _Note : according to the website, some of these categories are nsfw._
