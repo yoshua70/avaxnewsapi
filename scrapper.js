@@ -24,6 +24,10 @@ const getArticlesPerCategory = async (category) => {
 
   const browser = await puppepeteer.launch({
     headless: true,
+    'args': [
+      '--no-sandbox',
+      '--disable-setuid-sandbox'
+    ]
   });
   const page = await browser.newPage();
   const URL = process.env.URL || 'https://avax.news/';
