@@ -14,7 +14,7 @@ Example :
 ```
 
 ## Deployed version
-You can test it here : https://avaxnewsapi.herokuapp.com/ (not yet functional)
+You can test it here : https://avaxnewsapi.herokuapp.com/
 
 ## Articles category available
 * fact
