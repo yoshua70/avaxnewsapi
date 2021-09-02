@@ -17,7 +17,7 @@ app.get('/category/:category', (req, res) => {
   const { category } = req.params;
 
   const articles = scrapper.getArticlesPerCategory(category);
-  articles.then(promise => res.send(promise))
+  articles.then(promise => res.send({data: promise}))
     .catch(error => res.send(error));
 })
 
